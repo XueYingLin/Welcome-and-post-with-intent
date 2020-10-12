@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/fillEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fill in the form."
+        android:textSize="25sp"
+        android:textColor="#E1AD01"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID number"
+        android:textSize="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/fillEditText"/>
+
+   <EditText
+       android:id="@+id/fNEditText"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="First name"
+       android:textSize="30sp"
+       android:layout_marginStart="16dp"
+       android:layout_marginEnd="16dp"
+       android:layout_below="@+id/idEditText"/>
+
+    <EditText
+        android:id="@+id/lNEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last name"
+        android:textSize="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/fNEditText"/>
+
+    <EditText
+        android:id="@+id/majorEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Major"
+        android:textSize="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/lNEditText"/>
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date"
+        android:textSize="30sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@+id/majorEditText" />
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/dateEditText"/>
+
+
+</RelativeLayout>
